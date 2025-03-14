@@ -1,0 +1,27 @@
+{
+  "name": "native-futurism-ui",
+  "version": "0.1.0",
+  "description": "Custom React Native UI library with animations using Reanimated & Skia",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "react-native": "index.js",
+  "author": "Nishant Shaklan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaklan2001/native-futurism-ui.git"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.72.0",
+    "react-native-reanimated": ">=3.0.0",
+    "react-native-skia": ">=0.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-native": "^0.73.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}

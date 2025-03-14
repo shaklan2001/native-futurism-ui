@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "jsx": "react-native",
+      "allowJs": true,
+      "strict": true,
+      "moduleResolution": "node"
+    },
+    "include": ["src"]
+  }
+  
