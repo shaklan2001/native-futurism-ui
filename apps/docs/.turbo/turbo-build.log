@@ -1,0 +1,25 @@
+
+> docs@0.1.0 build /workspace/apps/docs
+> next build
+
+  ▲ Next.js 14.2.13
+
+   Linting and checking validity of types ...
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Collecting page data ...
+   Generating static pages (0/3) ...
+ ✓ Generating static pages (3/3)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (pages)                             Size     First Load JS
+┌ ○ /                                     670 B          78.6 kB
+└ ○ /404                                  181 B          78.1 kB
++ First Load JS shared by all             77.9 kB
+  ├ chunks/framework-cc803994526a0d84.js  44.9 kB
+  ├ chunks/main-e6186319c29c4655.js       32.1 kB
+  └ other shared chunks (total)           905 B
+
+○  (Static)  prerendered as static content
+

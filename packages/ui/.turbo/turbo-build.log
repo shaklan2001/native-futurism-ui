@@ -1,0 +1,22 @@
+
+> @native-futurism/ui@0.1.0 build /workspace/packages/ui
+> tsup
+
+CLI Building entry: src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.4.0
+CLI Using tsup config: /workspace/packages/ui/tsup.config.ts
+CLI Target: es2020
+CLI Cleaning output folder
+ESM Build start
+CJS Build start
+CJS dist/index.js     6.11 KB
+CJS dist/index.js.map 13.02 KB
+CJS ⚡️ Build success in 81ms
+ESM dist/index.mjs     5.14 KB
+ESM dist/index.mjs.map 12.87 KB
+ESM ⚡️ Build success in 81ms
+DTS Build start
+DTS ⚡️ Build success in 1025ms
+DTS dist/index.d.mts 1.41 KB
+DTS dist/index.d.ts  1.41 KB
