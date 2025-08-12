@@ -1,22 +1,31 @@
 
-> @native-futurism/ui@0.1.0 build /workspace/packages/ui
+
+> @native-futurism/ui@0.1.0 build /Users/nishantshaklan/native-futurism-ui/packages/ui
 > tsup
 
-CLI Building entry: src/index.ts
-CLI Using tsconfig: tsconfig.json
-CLI tsup v8.4.0
-CLI Using tsup config: /workspace/packages/ui/tsup.config.ts
-CLI Target: es2020
-CLI Cleaning output folder
-ESM Build start
-CJS Build start
-CJS dist/index.js     6.11 KB
-CJS dist/index.js.map 13.02 KB
-CJS ⚡️ Build success in 81ms
-ESM dist/index.mjs     5.14 KB
-ESM dist/index.mjs.map 12.87 KB
-ESM ⚡️ Build success in 81ms
+[34mCLI[39m Building entry: {"index":"src/index.ts","safe":"src/safe-index.ts"}
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.4.0
+[34mCLI[39m Using tsup config: /Users/nishantshaklan/native-futurism-ui/packages/ui/tsup.config.ts
+[34mCLI[39m Target: es2020
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist/safe.js      [22m[32m5.08 KB[39m
+[32mCJS[39m [1mdist/index.js     [22m[32m6.11 KB[39m
+[32mCJS[39m [1mdist/index.js.map [22m[32m13.02 KB[39m
+[32mCJS[39m [1mdist/safe.js.map  [22m[32m11.10 KB[39m
+[32mCJS[39m ⚡️ Build success in 110ms
+[32mESM[39m [1mdist/safe.mjs               [22m[32m179.00 B[39m
+[32mESM[39m [1mdist/index.mjs              [22m[32m1.13 KB[39m
+[32mESM[39m [1mdist/chunk-RQLCCMCK.mjs     [22m[32m4.31 KB[39m
+[32mESM[39m [1mdist/index.mjs.map          [22m[32m1.97 KB[39m
+[32mESM[39m [1mdist/chunk-RQLCCMCK.mjs.map [22m[32m11.01 KB[39m
+[32mESM[39m [1mdist/safe.mjs.map           [22m[32m69.00 B[39m
+[32mESM[39m ⚡️ Build success in 111ms
 DTS Build start
-DTS ⚡️ Build success in 1025ms
-DTS dist/index.d.mts 1.41 KB
-DTS dist/index.d.ts  1.41 KB
+DTS ⚡️ Build success in 1295ms
+DTS dist/index.d.mts 320.00 B
+DTS dist/safe.d.mts  1.26 KB
+DTS dist/index.d.ts  319.00 B
+DTS dist/safe.d.ts   1.26 KB
